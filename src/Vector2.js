@@ -23,7 +23,7 @@ export class Vector2 {
 		return [this.x, this.y];
 	}
 
-	static fromArray(array){
+	static fromArray(array = []){
 		if(array instanceof Vector2){
 			return array;
 		}

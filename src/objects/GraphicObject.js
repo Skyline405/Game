@@ -7,8 +7,4 @@ export class GraphicObject extends GameObject {
 		super(options);
 	}
 
-	draw(){
-
-	}
-
 }
